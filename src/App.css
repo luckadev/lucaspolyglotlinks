@@ -43,17 +43,21 @@ img {
   text-align: center;
 }
 
-.header p.banner {
-  font-size: 16px;
-  padding: 20px 30px;
-  border-radius: 159.493px;
-  border: 1.595px solid var(--grey, #919191);
-  background: rgba(255, 255, 255, 0.05);
+.header img {
+  width: 100%;
+  max-width: max-content;
+  margin-bottom: 20px;
+  transition: all .4s;
+}
+
+.header img:hover {
+  scale: .9;
 }
 
 .header div {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 5px;
 }
 
@@ -63,7 +67,7 @@ img {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 33.6px */
+  line-height: 100%; /* 33.6px */
 }
 
 .header div p {
@@ -72,7 +76,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%; /* 22.4px */                 
+  line-height: 160%; /* 22.4px */                 
 }
 
 .principal {

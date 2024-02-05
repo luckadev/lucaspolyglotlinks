@@ -17,8 +17,7 @@ const App = () => {
   return (
     <div className='container'>
       <div className='header'>
-        <p className='banner'>E aí, bora conversar?</p>
-        <img src="./assets/imgs/img.png" alt="Minha foto de perfil" />
+        <img src="./assets/imgs/imgprofile.svg" alt="Minha foto de perfil" />
         <div>
           <h2>Lucas Ribeiro</h2>
           <p>Poliglota & Mentor de idiomas</p>
